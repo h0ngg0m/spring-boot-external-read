@@ -1,0 +1,9 @@
+my:
+  datasource:
+    url: local.db.com
+    username: hong
+    password: 1234
+    etc:
+      max-connection: 1
+      timeout: 3500ms
+      options: CACHE,ADMIN
