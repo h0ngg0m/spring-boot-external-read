@@ -4,4 +4,4 @@
 - `@Value` - 값 주입 (`MyDataSourceValueConfig`)
   - `@Value`도 내부적으로는 `Environment`를 사용하고 있음.
   - 단점: `@Value`로 하나하나 외부 설정 정보의 키 값을 입력받고, 주입 받아와야 하는 부분이 번거로움.
-- `@ConfigurationProperties` - 타입 안전한 설정 속성
+- `@ConfigurationProperties` - Type-safe 설정 속성
